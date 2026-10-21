@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+functions/node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
+.eslintcache
+
+# Cypress & Vitest
+/cypress/videos/
+/cypress/screenshots/
+__screenshots__/
+
+# Vite
+*.timestamp-*-*.mjs
+
+# AI Skills and assistant metadata (Not needed for repository)
+.agents/
+.claude/
+skills-lock.json
+
+# Personal submission reports & screenshots (Do not upload to public repo)
+*.pdf
+screenshots/
+
+# Temporary
+vue.config.js
